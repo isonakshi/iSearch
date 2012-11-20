@@ -513,7 +513,7 @@ function search() {
 			var typeImage="";
 			var mainId="";
             $.each(rows, function(index, row) {
-            	resultRotal=row.size();
+            	
             	url=row.resources.html.ref;
 				subject=row.subject;
                	contentSummary=row.contentSummary;
@@ -624,7 +624,7 @@ function search() {
 					
 				            all +='<div class="root">';
                             all +='<ul>';                   
-                   		    all +='<div class="align">'+contentSummary+resultTotal+'</div>';                  
+                   		    all +='<div class="align">'+contentSummary+'</div>';                  
                     	    all +='</ul>';
 							all +='</div>';				                
 							all +='</div>';
