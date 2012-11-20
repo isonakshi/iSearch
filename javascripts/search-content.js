@@ -399,8 +399,9 @@ if(navigate=="next")
 		$('a#'+type+'_pagingControls').removeAttr('href');
 	}else{
 		pagecounter=pagecounter+1;
-		}
 		console.log("Page counter value:::"+pagecounter);
+		}
+		
  }else{
 	if(page<=1)
 	{
@@ -408,8 +409,9 @@ if(navigate=="next")
 	}else {
 	
  	pagecounter=pagecounter-1;
+ 		console.log("Page counter value inside previous:::"+pagecounter);
 	}
-	console.log("Page counter value inside previous:::"+pagecounter);
+
  }
 
  console.log("Page counter value before class:::"+pagecounter);
