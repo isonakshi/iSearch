@@ -396,7 +396,7 @@ if(navigate=="next")
  {
 	if(page==total_page_discussion)
 	{
-		$('a#'+type+'_pagingControls').removeAttr('href');
+		$('a#'+type+'_pagingControls').onclick="return false";
 	}else{
 		pagecounter=pagecounter+1;
 		console.log("Page counter value:::"+pagecounter);
@@ -405,7 +405,7 @@ if(navigate=="next")
  }else{
 	if(page<=1)
 	{
-		$('a#'+type+'_pagingControls').removeAttr('href');
+		$('a#'+type+'_pagingControls').onclick="return false";
 	}else {
 	
  	pagecounter=pagecounter-1;
